@@ -1,0 +1,96 @@
+/*----- GERAL -----*/
+* {
+    padding: 0;
+    border: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: rgb(35, 0, 0);
+    color: white;
+    margin-left: 2%;
+}
+
+/*----- HERÓI e NAV -----*/
+.heroSection h1 {
+    color: rgb(230, 50, 70);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 100px;
+    margin-bottom: 0;
+}
+
+.heroSection h3 {
+    font-size: 30px;
+}
+
+.linksNav {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.linksNav li {
+    margin-left: 30px;
+}
+
+.linksNav li a {
+    color: white;
+    text-decoration: none;
+}
+
+.linksNav li a:hover {
+    color: rgb(230, 50, 70);
+    text-decoration: none;
+}
+
+/*----- PIZZAS -----*/
+
+.flavorTitle {
+    margin-top: 50px;
+    margin-bottom: -10px;
+}
+
+.flavorsSection {
+    display: flex;
+    justify-content: center;
+}
+
+.pizza {
+    margin-top: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgb(255, 225, 150);
+    color: rgb(130, 50, 50);
+    min-width: 20vw;
+    max-width: 20vw;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.pizza .pizzaContent h5 {
+    font-size: 110%;
+    color: rgb(230, 50, 70);
+}
+
+.pizza img {
+    width: 15vw;
+    height: 15vw;
+    border-radius: 10px;
+}
+
+/*----- CONTATO -----*/
+.contato {
+    display: flex;
+}
+
+.contato a {
+    text-decoration: none;
+    color: rgb(230, 50, 70);
+    margin-left: 10px;
+    margin-top: 16px;
+}
+
+.contato a:hover {
+    color: rgb(255, 200, 70);
+    text-decoration: none;
+}
