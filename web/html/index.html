@@ -27,6 +27,7 @@
                 <div>
                     <p>Presunto, ovos, cebola, milho, <br>ervilha, azeitona e <br>queijo mussarela ou catupiry.</p>
                     <p>R$ 45,00</p>
+                    <button id="contactButton" onclick= 'redirect()'>Faça seu pedido</button>
                 </div>
             </div>
         </div>
@@ -37,6 +38,7 @@
                 <div>
                     <p>Linguiça calabresa e cebola.</p>
                     <p>R$ 45,00</p>
+                    <button id="contactButton" onclick= 'redirect()'>Faça seu pedido</button>
                 </div>
             </div>
         </div>
@@ -47,15 +49,16 @@
                 <div>
                     <p>Presunto, ovos, cebola, milho, <br>ervilha, azeitona e <br>queijo mussarela ou catupiry.</p>
                     <p>R$ 45,00</p>
+                    <button id="contactButton" onclick= 'redirect()'>Faça seu pedido</button>
                 </div>
             </div>
         </div>
     </div>
-
-    <br>
-    <div class="contato">
-        <p>Encontrou o que procurava?</p>
-        <a href="./contact.html">Faça o seu pedido!</a>
-    </div>
+    <script>
+        function redirect() {
+            var button = document.getElementById("contactButton");
+            button.onclick = location.href='./contact.html';
+        }
+    </script>
 </body>
 </html>

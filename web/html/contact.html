@@ -17,10 +17,21 @@
         <div>
             <h1>Contato</h1>
             <img src="../../assets/images/contact-us.jpg" alt="pessoa mexendo em um smartphone">
-            <p>Já decidiu seu pedido de hoje? Finalize seu pedido aqui!</p> <button>Faça seu pedido</button>
+            <p>Ainda não decidiu seu pedido de hoje?</p> <button id="homeButton" onclick= 'redirect()'>Escolha seu pedido</button>
             <br>
-            <p>Encontrou alguma dificuldade ou ainda possui dúvidas?</p> <button>Fale com uma atendente</button>
+            <p>Encontrou o que desejava? Faça seu pedido!</p> <button id="whatsappButton" onclick="redirect2()">Whatsapp</button>
         </div>
     </div>
+    <script>
+        function redirect() {
+            var button = document.getElementById("homeButton");
+            button.onclick = location.href='./index.html';
+        }
+
+        function redirect2() {
+            var button = document.getElementById("whatsappButton");
+            button.onclick = location.href='./index.html';
+        }
+    </script>
 </body>
 </html>
